@@ -1,0 +1,45 @@
+body{
+    background-image: url(luna.jpg);
+    background-size: 100vh 100vw;/*Esta propiedad hace que la imagen tomo el alto y el ancho maximo de la pantalla*/
+    background-attachment: fixed; /*Esta propiedad hace que la imagen se acople al tamaño de la pantalla*/
+}
+
+form{
+    border: 1px solid black;
+    margin: auto;
+    padding: 10px 30px;
+    height: 300px;
+    width: 300px;
+    background: rgba(0,0,0,0.4);/*Con esta propiedad podemos poner un color u opacidad*/
+    box-sizing: border-box;/*Esta propiedad hace que el recuadro no se deforme */
+    border-radius: 10px;/*Esta propiedad me permite darle curva a los bordes*/
+}
+
+input{
+    width: 100%;
+    margin-bottom: 5px;
+    border-radius: 3px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+textarea{
+    width: 100%;
+    height: 100px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+#boton{
+    width: 100px;
+    height: 30px;
+    margin-left: 60px;;
+}
+
+#boton:hover{
+    cursor: pointer;
+    background-color: black;
+    color:whitesmoke;
+}

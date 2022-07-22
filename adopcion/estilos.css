@@ -1,0 +1,106 @@
+header, section, aside, footer{
+	position: relative;
+}
+
+header{
+	text-align: center;/*Esta etiqueta me alinea el texto hacia el centro*/
+	margin-left: 200px; /*Margen hacia la izquierda*/
+	margin-right: 200px;/*Margen hacia la derecha*/
+	background: rgba(0,0,0,0.1)
+}
+
+body{
+	background-image: url(pastoralemanfoto.jpeg);/*Con esta etiqueta agregamos una imagen de fondo a la pagina*/
+	background-size: cover;/*Esta propiedad hace que la imagen cubra toda la pagina*/
+	background-attachment: fixed;/*Esta propiedad hace que la imagen quede fija*/
+	position: relative;
+	color: white;
+}
+
+body:before{
+	content: "";
+	width: 100%;
+	height: 100%;
+	background-color: #e67e22;
+	position: absolute;
+	opacity: 0.2;
+}
+section {
+	padding: 20px; /*Margen dentro del cuadro*/
+	width: 780px; 
+	height: 950px;  
+	float: left;/*Me permite acomodar una seccion o un contenedor hacia alguna posicion de la pantalla*/
+	margin-top: 10px;  
+	margin-bottom: 10px; /*Margen hacia abajo*/
+	background: rgba(0,0,0,0.1)
+}
+
+img{
+	margin:10px;
+}
+	
+aside{
+	float:right;
+	padding: 20px;
+	width: 450px;
+	height: 950px;
+	margin: auto;
+	margin-top: 10px; /*Margen hacia arriba*/
+	background: rgba(0,0,0,0.1)
+}
+
+#datos{
+	width: 450px;
+	height: 350px;
+	background: rgba(0,0,0,0.2)/*Esta etiqueta me da el color de fondo con los colores primarios y el nivel de trasparencia*/
+}
+
+input{
+	width: 90%;
+	margin-bottom: 10px;
+	margin-left: 5px;
+}
+
+textarea{
+	width: 90%;
+	height: 30%;
+	margin-bottom: 10px;
+	margin-left: 5px;
+}
+
+#titulodatos{
+	text-align: center;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /*Tipo de fuente de la letra*/
+	font-size: 30px;
+}
+
+#pdatos{
+	margin-left: 5px;
+}
+
+.buscar{
+	border: 1px solid black;
+	width: 70%;
+}
+
+.boton{
+	width: 20%;
+}
+
+.boton:hover{ /*Esta seudo clase me permite indicarle que estilos darle al mouse cuanto este sobre el boton*/
+	cursor: pointer; /*Esto permite que el mouse cambie cuando este sobre el boton*/
+}
+
+.subtitulo{
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+footer{
+	text-align: center;
+	clear: both;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	margin: auto;
+	background: rgba(0,0,0,0.1)
+}
+
+
